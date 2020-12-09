@@ -1,0 +1,100 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login site CWI",
+    "line": 1,
+    "id": "login-site-cwi",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login-site-cwi;teste-1---visualizar-opção-de-recuperar-senha-esquecida",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Teste 1 - Visualizar opção de recuperar senha esquecida",
+        "tags": [
+          {
+            "name": "@Positivo",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "acesso o site CWI",
+            "result": {
+              "status": "passed",
+              "duration": 2918000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "acesso a pagina de login",
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "devo visualizar botao de recuperar senha esquecida",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-site-cwi;teste-2---visualizar-opção-de-recuperar-senha-esquecida",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Teste 2 - Visualizar opção de recuperar senha esquecida",
+        "tags": [
+          {
+            "name": "@Negativo",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "acesso o site CWI",
+            "result": {
+              "status": "skipped",
+              "duration": 52000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "acesso a pagina de login",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "devo visualizar botao de recuperar senha esquecida",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
