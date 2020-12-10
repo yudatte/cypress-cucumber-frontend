@@ -27,7 +27,7 @@
             "name": "acesso o site CWI",
             "result": {
               "status": "passed",
-              "duration": 2918000000
+              "duration": 3785000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "acesso a pagina de login",
             "result": {
               "status": "passed",
-              "duration": 119000000
+              "duration": 112000000
             }
           },
           {
@@ -47,7 +47,7 @@
             "name": "devo visualizar botao de recuperar senha esquecida",
             "result": {
               "status": "passed",
-              "duration": 88000000
+              "duration": 77000000
             }
           }
         ]
@@ -71,8 +71,8 @@
             "line": 11,
             "name": "acesso o site CWI",
             "result": {
-              "status": "skipped",
-              "duration": 52000000
+              "status": "passed",
+              "duration": 719000000
             }
           },
           {
@@ -81,7 +81,8 @@
             "line": 12,
             "name": "acesso a pagina de login",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 79000000
             }
           },
           {
@@ -90,7 +91,8 @@
             "line": 13,
             "name": "devo visualizar botao de recuperar senha esquecida",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 7000000
             }
           }
         ]
