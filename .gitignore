@@ -1,4 +1,7 @@
 /node_modules
+/cypress/allure-report
+/cypress/allure-results
 /allure-report
 /allure-results
-/videos
+/cypress//videos
+/cypress/screenshots

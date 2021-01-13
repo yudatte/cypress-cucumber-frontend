@@ -1,4 +1,4 @@
-Feature: Teste Login
+Feature: Teste Google
 
     @Negativo
     Scenario: Teste 1 - Acessar o Google
