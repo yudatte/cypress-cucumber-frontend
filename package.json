@@ -1,19 +1,14 @@
 {
     "scripts": {
         "test:chrome:persistent": "cypress run --browser chrome --no-exit",
-        "posttest:chrome:persistent": "node ./cypress/support/multiple-cucumber-html-reporter.js && node ./cypress/support/cucumber-html-reporter.js",
         "test:chrome": "cypress run --browser chrome",
-        "posttest:chrome": "node ./cypress/support/multiple-cucumber-html-reporter.js && node ./cypress/support/cucumber-html-reporter.js",
         "test": "echo \"Error: no test specified\" && exit 1",
         "test:chrome:persistent:headless": "cypress run --headless --browser chrome --no-exit",
-        "posttest:chrome:persistent:headless": "node ./cypress/support/multiple-cucumber-html-reporter.js && node ./cypress/support/cucumber-html-reporter.js",
         "test:chrome:headless": "cypress run --headless --browser chrome",
-        "posttest:chrome:headless": "node ./cypress/support/multiple-cucumber-html-reporter.js && node ./cypress/support/cucumber-html-reporter.js",
-        "test:chrome:positivo":"./node_modules/.bin/cypress-tags run -e TAGS=\"@Positivo\" --browser chrome --headless",
-        "posttest:chrome:positivo": "node ./cypress/support/multiple-cucumber-html-reporter.js && node ./cypress/support/cucumber-html-reporter.js",
-        "test:chrome:negativo":"./node_modules/.bin/cypress-tags run -e TAGS=\"@Negativo\" --browser chrome --headless",
-        "posttest:chrome:negativo": "node ./cypress/support/multiple-cucumber-html-reporter.js && node ./cypress/support/cucumber-html-reporter.js"
-
+        "test:chrome:positivo": "./node_modules/.bin/cypress-tags run -e TAGS=\"@Positivo\" --browser chrome --headless",
+        "test:chrome:negativo": "./node_modules/.bin/cypress-tags run -e TAGS=\"@Negativo\" --browser chrome --headless",
+        "report:allure": "allure generate",
+        "test:allure": "cypress run --env allure=true --browser chrome --no-exit"
     },
     "cypress-cucumber-preprocessor": {
         "step_definitions": "cypress/support/steps",
@@ -27,9 +22,11 @@
         }
     },
     "devDependencies": {
-        "cucumber-html-reporter": "^5.2.0",
         "cypress": "^6.1.0",
-        "cypress-cucumber-preprocessor": "^4.0.0",
-        "multiple-cucumber-html-reporter": "^1.18.0"
+        "cypress-cucumber-preprocessor": "^4.0.0"
+    },
+    "dependencies": {
+        "@shelex/cypress-allure-plugin": "^2.0.1",
+        "allure-commandline": "^2.13.8"
     }
 }

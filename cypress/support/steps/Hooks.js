@@ -1,3 +1,5 @@
+/// <reference types="Cypress" />
+
 const {
     Before,
     After,
@@ -10,5 +12,6 @@ const {
   });
 
   After(() => {
+    cy.screenshot();
     console.log('depois de cada cenário')
   });

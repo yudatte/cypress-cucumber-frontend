@@ -5,7 +5,7 @@
     "line": 1,
     "id": "teste-login",
     "tags": [],
-    "uri": "Login.feature",
+    "uri": "Login copy.feature",
     "elements": [
       {
         "id": "teste-login;teste-1---acessar-o-google",
@@ -27,7 +27,7 @@
             "name": "acesso o Google",
             "result": {
               "status": "passed",
-              "duration": 1177000000
+              "duration": 14954000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "clico na barra de busca",
             "result": {
               "status": "passed",
-              "duration": 108000000
+              "duration": 133000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "acesso o Google",
             "result": {
               "status": "passed",
-              "duration": 1407000000
+              "duration": 6882000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "clico na barra de busca",
             "result": {
               "status": "passed",
-              "duration": 97000000
+              "duration": 99000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "escrevo qualquer texto",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 3000000
             }
           }
         ]
@@ -117,7 +117,7 @@
             "name": "acesso o Google",
             "result": {
               "status": "passed",
-              "duration": 1034000000
+              "duration": 1011000000
             }
           },
           {
@@ -137,7 +137,7 @@
             "name": "escrevo qualquer texto",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 3000000
             }
           }
         ]

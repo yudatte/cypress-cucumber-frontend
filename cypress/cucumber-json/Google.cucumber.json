@@ -5,7 +5,7 @@
     "line": 1,
     "id": "teste-login",
     "tags": [],
-    "uri": "Login.feature",
+    "uri": "Google.feature",
     "elements": [
       {
         "id": "teste-login;teste-1---acessar-o-google",
@@ -27,7 +27,7 @@
             "name": "acesso o Google",
             "result": {
               "status": "passed",
-              "duration": 1177000000
+              "duration": 12325000000
             }
           },
           {
@@ -37,7 +37,7 @@
             "name": "clico na barra de busca",
             "result": {
               "status": "passed",
-              "duration": 108000000
+              "duration": 270000000
             }
           },
           {
@@ -53,10 +53,10 @@
         ]
       },
       {
-        "id": "teste-login;teste-2---acessar-o-google",
+        "id": "teste-login;teste-2---preenchendo-a-barra-de-pesquisa-com-texto",
         "keyword": "Scenario",
         "line": 10,
-        "name": "Teste 2 - Acessar o Google",
+        "name": "Teste 2 - Preenchendo a barra de pesquisa com texto",
         "tags": [
           {
             "name": "@Negativo",
@@ -72,7 +72,7 @@
             "name": "acesso o Google",
             "result": {
               "status": "passed",
-              "duration": 1407000000
+              "duration": 2490000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "clico na barra de busca",
             "result": {
               "status": "passed",
-              "duration": 97000000
+              "duration": 268000000
             }
           },
           {
@@ -98,10 +98,10 @@
         ]
       },
       {
-        "id": "teste-login;teste-3---acessar-o-google",
+        "id": "teste-login;teste-3---pesquisando-algo-no-google",
         "keyword": "Scenario",
         "line": 16,
-        "name": "Teste 3 - Acessar o Google",
+        "name": "Teste 3 - Pesquisando algo no Google",
         "tags": [
           {
             "name": "@Positivo",
@@ -117,7 +117,7 @@
             "name": "acesso o Google",
             "result": {
               "status": "passed",
-              "duration": 1034000000
+              "duration": 2157000000
             }
           },
           {
@@ -127,7 +127,7 @@
             "name": "clico na barra de busca",
             "result": {
               "status": "passed",
-              "duration": 86000000
+              "duration": 261000000
             }
           },
           {
@@ -137,7 +137,17 @@
             "name": "escrevo qualquer texto",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "pressiono enter",
+            "result": {
+              "status": "passed",
+              "duration": 8396000000
             }
           }
         ]
