@@ -3,5 +3,6 @@
 /cypress/allure-results
 /allure-report
 /allure-results
-/cypress//videos
+/cypress/videos
 /cypress/screenshots
+/cucumber-json
