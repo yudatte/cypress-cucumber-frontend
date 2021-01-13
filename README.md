@@ -1,2 +1,2 @@
 # cypress-cucumber-frontend
-Basic schema in NodeJS with cypress and cucumber for frontend test automation.
+Esqueleto base para automação frontend com cypress, nodejs, cucumber e allure report
