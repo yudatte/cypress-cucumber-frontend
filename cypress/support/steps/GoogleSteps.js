@@ -3,6 +3,8 @@
 import GooglePage from '../pageobjects/GooglePage'
 const googlePage = new GooglePage
 
+
+
 Given("acesso o Google", () => {
     cy.visit('https://www.google.com/');
     console.log("Acesso o Google.")

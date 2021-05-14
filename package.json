@@ -8,7 +8,12 @@
         "test:chrome:positivo": "./node_modules/.bin/cypress-tags run -e TAGS=\"@Positivo\" --browser chrome --headless",
         "test:chrome:negativo": "./node_modules/.bin/cypress-tags run -e TAGS=\"@Negativo\" --browser chrome --headless",
         "report:allure": "allure generate",
-        "test:allure": "cypress run --env allure=true --browser chrome --no-exit"
+        "test:allure": "cypress run --env allure=true --browser chrome --no-exit",
+        "test:allure2": "./node_modules/.bin/cypress-tags run --env allure=true -e TAGS=\"@Positivo\" --browser chrome --no-exit",
+        "test:allure3": "./node_modules/.bin/cypress-tags run --env allure=true -e TAGS=\"@Positivo\" --browser chrome",
+        "test:allure4": "cypress run --env allure=true --browser chrome",
+        "test:allure5": "cypress run --env allure=true --browser chrome --no-exit",
+        "test2": "cypress run --env allure=true --browser chrome --spec \"**/*.feature\""
     },
     "cypress-cucumber-preprocessor": {
         "step_definitions": "cypress/support/steps",

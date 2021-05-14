@@ -1,0 +1,67 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Teste Google",
+    "line": 1,
+    "id": "teste-google",
+    "tags": [],
+    "uri": "Google.feature",
+    "elements": [
+      {
+        "id": "teste-google;teste-3---pesquisando-algo-no-google",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Teste 3 - Pesquisando algo no Google",
+        "tags": [
+          {
+            "name": "@Positivo",
+            "line": 15
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "acesso o Google",
+            "result": {
+              "status": "passed",
+              "duration": 128748000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "clico na barra de busca",
+            "result": {
+              "status": "passed",
+              "duration": 326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "escrevo qualquer texto",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "pressiono enter",
+            "result": {
+              "status": "passed",
+              "duration": 8265000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
